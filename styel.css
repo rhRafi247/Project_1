@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    z-index: 1;
+}
+.head1{
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head1 ul{
+    justify-content: center;
+    list-style: none;
+    display: flex;
+}
+.head1 ul li{
+    margin: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.head1 ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.head1 ul li a:hover{
+    background-color: blue;
+    color: rgb(252, 250, 246);
+    border-radius: 3px;
+}
+.head2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head2 ul{
+    list-style: none;
+    display: flex;
+}
+
+.head2 ul li{
+    cursor: pointer;
+    margin: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+
+.head2 ul li:hover{
+    background-color: blue;
+    color: rgb(252, 250, 246);
+    border-radius: 3px;
+}
+
+.head2 ul li:active{
+    background-color: rgb(75, 75, 88);
+    color: rgb(255, 255, 255);
+}
+.siteBody{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.siteBody .image img{
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.siteBody .bodyText{
+    position: absolute;
+    left: 50%;
+}
+.bodyText button{
+    outline: none;
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.bodyText h1{
+    line-height: 28px;
+}
+.bodyText p{
+    margin-top: 10px;
+}
+.bodyText button:hover{
+    background-color: rgb(4, 4, 77);
+}
+
+.bodyIcon{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bodyIcon ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.bodyIcon ul li{
+    display: flex;
+    margin: 70px;
+}
+.bodyIcon ul li p{
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.bodyIcon .b_p{
+    background-color: blue;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+footer{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+footer p{
+    line-height: 20px;
+    margin-top: 20px;
+}
